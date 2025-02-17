@@ -1,0 +1,19 @@
+{
+  "name": "demo-frontend",
+  "version": "0.0.0",
+  "description": "demo frontend ",
+  "author": "Somesh Chandimal <someshchandih@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/demo-frontend.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/demo-frontend.test.js"
+  }
+}
