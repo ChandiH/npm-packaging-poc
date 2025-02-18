@@ -13,6 +13,10 @@
     "backstage": {
         "role": "frontend-plugin"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ChandiH/npm-packaging-poc"
+    },
     "sideEffects": false,
     "scripts": {
         "start": "backstage-cli package start",
