@@ -29,7 +29,7 @@ export const CounterComponent = firstFrontendPlugin.provide(
         name: 'CounterComponent',
         component: {
             lazy: () =>
-                import('./components/counter').then(
+                import('./components/ExampleFetchComponent').then(
                     (m) => m.CounterComponent
                 ),
         },

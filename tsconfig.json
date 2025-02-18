@@ -7,7 +7,7 @@
         "rootDir": ".",
         "allowJs": true,
         "declaration": true,
-        "declarationMap": false,
+        "declarationMap": true,
         "esModuleInterop": true,
         "experimentalDecorators": false,
         "forceConsistentCasingInFileNames": true,
