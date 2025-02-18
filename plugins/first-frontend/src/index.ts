@@ -1,2 +1,1 @@
-export { firstFrontendPlugin, FirstFrontendPage } from './plugin';
-export { CounterComponent } from './components/counter';
+export { firstFrontendPlugin, FirstFrontendPage, CounterComponent } from './plugin';

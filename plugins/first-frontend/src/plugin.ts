@@ -1,4 +1,5 @@
 import {
+    createComponentExtension,
     createPlugin,
     createRoutableExtension,
 } from '@backstage/core-plugin-api';
@@ -20,5 +21,17 @@ export const FirstFrontendPage = firstFrontendPlugin.provide(
                 (m) => m.ExampleComponent
             ),
         mountPoint: rootRouteRef,
+    })
+);
+
+export const CounterComponent = firstFrontendPlugin.provide(
+    createComponentExtension({
+        name: 'CounterComponent',
+        component: {
+            lazy: () =>
+                import('./components/counter').then(
+                    (m) => m.CounterComponent
+                ),
+        },
     })
 );
