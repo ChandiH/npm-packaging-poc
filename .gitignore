@@ -143,3 +143,8 @@ site
 !.yarn/plugins
 .pnp.*
 
+
+
+
+.nx/cache
+.nx/workspace-data
